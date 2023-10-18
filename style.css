@@ -1,0 +1,65 @@
+body {
+    background-color:rgb(226, 240, 201);
+}
+
+header {
+    padding: 10px;
+    background-color:rgb(39, 37, 37);
+}
+
+header h1 {
+    color:rgb(252, 252, 252);
+    text-align: center;
+}
+
+.left {
+    padding: 10px;
+    float:left; 
+    width: 10%;
+    height:280px;
+    vertical-align: top;
+
+}
+
+.left {
+    text-align: center;
+}
+.center {
+    padding: 1px;
+    float:center; 
+    width: 60%;
+    height:280px;
+    vertical-align: top;
+
+}
+
+.center p{
+    position: relative;
+    top: 70px;
+    font-size: 24px;
+    left: 10px;
+    overflow: hidden;
+}
+
+.right {
+    padding: 10px;
+    float:right; 
+    width: 30%;
+    height:280px;
+    vertical-align: top;
+
+}
+.right h2{
+    font-size: 50px;
+}
+
+.right ul {
+    font-size: 24px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    box-sizing: border-box;  
+}
+
